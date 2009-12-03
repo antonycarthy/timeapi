@@ -7,14 +7,15 @@ require 'time'
 module TimeAPI
   PST = -8
   MST = -7
-  CST = -6
-  EST = -5
   PDT = -7
+  CST = -6
   MDT = -6
+  EST = -5
   CDT = -5
-  EDT = -4
+  EDT = -4  
   UTC = 0
   GMT = 0
+  CAT = 2
   
   class App < Sinatra::Default
   
